@@ -34,8 +34,8 @@ pip install opencv-python matplotlib ipywidgets
 
 ```
 Grayscale_Synth/
-├── basic_xerox_effect.py              # Simple grayscale thresholding and display
-├── xerox_with_histogram.py           # Shows histogram + binary output
+├── ocr.py              # Simple grayscale thresholding and display
+├── ocr_with_hist.py           # Shows histogram + binary output
 ├── interactive_threshold_slider.py   # (Coming Soon) Interactive threshold with slider
 └── README.md
 ```
@@ -47,7 +47,7 @@ Grayscale_Synth/
 ### 1. Basic Xerox Conversion
 
 ```bash
-python basic_xerox_effect.py
+python ocr.py
 ```
 
 Edit `image_path` in the file to point to your desired image. You can also change the `threshold_value`.
@@ -55,7 +55,7 @@ Edit `image_path` in the file to point to your desired image. You can also chang
 ### 2. Histogram + Thresholding Visualizer
 
 ```bash
-python xerox_with_histogram.py
+python ocr_with_hist.py
 ```
 
 This will show:
