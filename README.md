@@ -35,8 +35,9 @@ pip install opencv-python matplotlib ipywidgets
 ```
 Grayscale_Synth/
 ├── ocr.py              # Simple grayscale thresholding and display
-├── ocr_with_hist.py           # Shows histogram + binary output
-├── interactive_threshold_slider.py   # (Coming Soon) Interactive threshold with slider
+├── ocr_with_hist.py    # Shows histogram + binary output
+├── ocr_hist_slider.py  # Interactive threshold with slider to adjust the threshold value in realtime
+├── grayscale.py        # It converts the normal rgb image into grayscale image 
 └── README.md
 ```
 
